@@ -65,7 +65,7 @@ export const skills = [
     },
     {
         url: '/tec/socket.io.svg',
-        tec: 'Socket IO'
+        tec: 'Socket I.O.'
     },
 ]
 
