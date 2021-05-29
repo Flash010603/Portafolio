@@ -16,7 +16,7 @@ export const Skills = () => {
                         <h2>Skills</h2>
                         <hr />
                         <p className={project.textInit}>Actualmente estas son las tecnologías con las que he trabajado.</p>
-                        <p className={project.down}>(Tengo minimo 1 año de experiencia en todas)</p>
+                        <p className={project.down}>(Desliza hacia abajo)</p>
                     </header>
 
                     <Button right={true} />
@@ -29,7 +29,7 @@ export const Skills = () => {
                         <div className={skill.container}>
                             {
                                 skills.map( ({url,tec}, index) => (
-                                    <div class={skill.glasscontainer} id="glass">           
+                                             
                                     <div className={skill.item_main} key={index}>
                                         <div className={skill.container_img}>
                                             <Image
@@ -44,7 +44,7 @@ export const Skills = () => {
                                             <p>{tec}</p>
                                         </div>
                                     </div>
-                                    </div>
+                                    
                                 ))
                             }
                         </div>

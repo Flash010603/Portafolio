@@ -11,6 +11,8 @@ export const Cardproject = ({ source, desc, title, demo, git, labels }) => {
                         src={source}
                         layout="fill"
                         objectFit="cover"
+                        loading="lazy"
+                        
                     />
                 </div>
 

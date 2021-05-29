@@ -1,10 +1,13 @@
 .main_container{
-    background-color: rgb(25, 26, 24);
+
     border-radius: 5px;
     overflow: hidden;
     position: relative;
 }
-.header h2{margin: 0; color: rgba(0, 0, 0, .4);}
+.header h2{
+    margin: 0; color: rgb(236, 233, 233);
+    text-shadow: 3px 3px 10px black;
+}
 
 .header hr{ 
     border: 1px solid black; 
@@ -12,7 +15,7 @@
     margin: 1.5em 0;
 }
 .header{
-    background-color: rgb(151, 151, 151);
+    background-color: rgb(108, 72, 192);
     padding: 2.5em 2em 1em 2em;
     position: relative;
     overflow: hidden;
@@ -31,7 +34,10 @@
 
 .textBig{
     font-size: 4em;
-    margin: 0; 
+    margin: 0;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 3px; 
 }
 .img_div{
     position: absolute;
@@ -39,7 +45,7 @@
     height: 30vw;
     background-color: rgba(194, 184, 184, 0.459);
     right: -7%;
-    bottom: -40%;
+    bottom: -39%;
     border-radius: 50%;
 
     background-image: url('../public/dev.svg');
@@ -142,7 +148,6 @@
 @media screen and (max-width:470px){
 
     .header{
-        background-color: rgb(151, 151, 151);
         padding: 2.5em 2em 1em 2em;
         position: relative;
         overflow: hidden;
