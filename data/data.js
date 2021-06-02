@@ -11,31 +11,18 @@ export const skills = [
         url: '/tec/express.svg',
         tec: 'Express JS'
     },
-    {
-        url: '/tec/nextjs.svg',
-        tec: 'Next JS'
-    },
-    {
-        url: '/tec/dev.svg',
-        tec: 'React Native JS'
-    },
+
 
     {
         url: '/tec/typescript-icon.svg',
         tec: 'Typescript JS'
     },
-    {
-        url: '/tec/socket.io.svg',
-        tec: 'Socket I.O.'
-    },
+
     {
         url: '/tec/c-sharp.svg',
         tec: 'C Sharp'
     },
-    {
-        url: '/tec/firebase.svg',
-        tec: 'Firebase'
-    },
+
 
     {
         url: '/tec/mongodb.svg',
@@ -66,7 +53,7 @@ export const projectsData = [
         source: "/tacos.png",
         desc: "Aplicación para la administración de un puesto de tacos",
         demo: "https://tacos-app.netlify.app/",
-        git: "https://github.com/Flash010603/Tacos_app",
+        git: "https://github.com/Franklin361/Tacos-app",
         labels: ["HTML", "CSS", "JavaScript"],
     },
 
@@ -74,8 +61,8 @@ export const projectsData = [
         title: "Galería de fotos",
         source: "/gallery.png",
         desc: "Aplicación de galeria con efecto modal para las imagenes",
-        demo: "https://our-gallery-of-love.netlify.app/",
-        git: "https://github.com/Flash010603/gallery-rubi-react",
+        demo: "https://galeria-app.netlify.app",
+        git: "https://github.com/Franklin361/Galeria",
         labels: ["Rect JS"],
     },
 

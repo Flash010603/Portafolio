@@ -33,8 +33,9 @@
   width: 14.2em;
   height: 14.2em;
   border-radius: 100%;
-  background-image: url('/img0.jpg');
-  background-position: center;
+
+  background-image: url('/img4.png');
+
   background-repeat: no-repeat;
   background-size: cover;
   /* border: 1px solid red; */

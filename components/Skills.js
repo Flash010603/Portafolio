@@ -13,7 +13,7 @@ export const Skills = () => {
             <main className={main.main_container}>
                 <div className="animate__animated animate__fadeIn">
                     <header className={main.header}>
-                        <h2>Skills</h2>
+                        <h2>Habilidades</h2>
                         <hr />
                         <p className={project.textInit}>Actualmente estas son las tecnologías con las que he trabajado.</p>
                         <p className={project.down}>(Desliza hacia abajo)</p>
