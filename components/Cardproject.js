@@ -33,6 +33,11 @@ export const Cardproject = ({ source, desc, title, demo, git, labels }) => {
                     ))
                 }
             </div>
+
+            <div className={project.container_btn_movil} >
+                <a href={`${demo}`} target="_blank" rel="noopener noreferrer">Demo</a>
+                <a href={`${git}`} target="_blank" rel="noopener noreferrer">Github</a>
+            </div>
         </div>
     )
 }

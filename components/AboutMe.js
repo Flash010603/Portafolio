@@ -12,8 +12,10 @@ export const AboutMe = () => {
           <header className={`${main.headerBig} ${main.header}`}>
             <h2>Intro</h2>
             <hr />
-            <p className={main.textBig}>Hola a todos!</p>
-            <p className={main.description}> Soy un <b className={main.puesto}>Fronted Developer</b> que le gusta implementar diseños que inspiren y atraigan a las personas.</p>
+            <p className={main.textBig}>¡Hola a todos!</p>
+            <p className={main.description}> Soy un <b className={main.puesto}>Frontend Developer</b> que le gusta implementar diseños que inspiren y atraigan a las personas.
+            Usando las mejores prácticas para optimizar la experiencua de usuario.
+            </p>
 
             <div className={main.img_div}>
 
@@ -27,10 +29,9 @@ export const AboutMe = () => {
           </header>
 
 
-          {
-            (counter < 0) &&
+          
             <Button right={false} />
-          }
+          
           <Button right={true} />
 
         </div>
