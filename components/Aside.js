@@ -14,22 +14,22 @@ export const Aside = () => {
                 <div className={aside.office}><p> Desarrollador web</p></div>
 
                 <div className={aside.containerContact}>
-                    <a href="mailto:fml010603@gmail.com" target="_blank"><i className="far fa-envelope"></i></a>
+                    <a href="mailto:fml010603@gmail.com" title="fml010603@gmail.com" target="_blank"><i className="far fa-envelope"></i></a>
                     
 
-                    <a href="https://github.com/Franklin361" target="_blank" ><i className="fab fa-github"></i></a>
+                    <a href="https://github.com/Franklin361" title="Franklin361" target="_blank" ><i className="fab fa-github"></i></a>
 
-                    <a href="https://api.whatsapp.com/send?phone=528128734368&text=Hola!%20Estamos%20interesados%20en%20tu%20perfil" target="_blank"><i className="fab fa-whatsapp"></i></a>
+                    <a href="https://api.whatsapp.com/send?phone=528128734368&text=Hola!%20Estamos%20interesados%20en%20tu%20perfil" title="+52 8128734368" target="_blank"><i className="fab fa-whatsapp"></i></a>
                     
                 </div>
 
                 <div className={aside.containerDetails}>
-                    <div className={aside.itemDetail}>
+                    <div className={aside.itemDetail} title="fecha de nacimiento">
                         <i className="far fa-calendar-minus"></i>
                         <p>03 / Junio / 2001</p>
                     </div>
 
-                    <div className={aside.itemDetail}>
+                    <div className={aside.itemDetail} title="residencia">
                         <i className="fas fa-map-marker-alt"></i>
                         <p>General Zuazua, N.L., México</p>
                     </div>

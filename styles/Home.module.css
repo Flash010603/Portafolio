@@ -46,7 +46,7 @@
   font-size: 2.4em;
   text-align: center;
   margin: .5em 0;
-  text-shadow: 5px 5px 5px rgba(31, 30, 30, 0.438);
+  text-shadow: 3px 3px 3px rgba(31, 30, 30, 0.438);
   
 }
 .lastName{
@@ -99,7 +99,7 @@
   color: #07d637;
 }
 .containerContact> a:hover{
-  transform: scale(1.4);
+  border-radius: 10px;
 }
 
 .containerDetails{

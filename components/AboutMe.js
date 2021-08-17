@@ -13,8 +13,8 @@ export const AboutMe = () => {
             <h2>Intro</h2>
             <hr />
             <p className={main.textBig}>¡Hola a todos!</p>
-            <p className={main.description}> Soy un <b className={main.puesto}>Frontend Developer</b> que le gusta implementar diseños que inspiren y atraigan a las personas.
-            Usando las mejores prácticas para optimizar la experiencua de usuario.
+            <p className={main.description}> Soy un <b className={main.puesto}>Front-end developer</b> que le gusta implementar diseños que inspiren y atraigan a las personas.
+            Usando las mejores prácticas para optimizar la experiencia de usuario.
             </p>
 
             <div className={main.img_div}>

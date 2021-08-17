@@ -17,7 +17,7 @@ export const Projects = () => {
                     <header className={main.header}>
                         <h2>Proyectos</h2>
                         <hr />
-                        <p className={project.textInit}>Estos son algunos de los diferentes proyectos que he realizado </p>
+                        <p className={project.textInit}>Estos son algunos de los diferentes proyectos que he realizado. </p>
                         <p className={project.down}>(Desliza hacia abajo)</p>
                     </header>
 
