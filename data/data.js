@@ -54,7 +54,7 @@ export const projectsData = [
         desc: "Aplicación para la administración de un puesto de tacos",
         demo: "https://tacos-app.netlify.app/",
         git: "https://github.com/Franklin361/Tacos-app",
-        labels: ["HTML", "CSS", "JavaScript"],
+        labels: ["HTML", "CSS", "JS"],
     },
 
     {
