@@ -7,24 +7,19 @@ export const Button = ( { right=false } ) => {
     const { setCounter,counter } = useContext(PageContext);
     
     const onClick = () => {
-        if(counter ===0 && !right){
+        if(counter === 0 && !right){
             setCounter(2)
         }
         else if(counter <2){
             (right) ? setCounter( c => c + 1) : setCounter( c => c - 1);  
-            console.log('1')
         }
         else if(counter === 2 && !right){
             setCounter( c => c - 1)
-            console.log('2')
         }
         else{
             setCounter( 0 )
-            console.log('4')
         }
     };
-
-    console.log(counter)
     return (
         <>
             <div 
