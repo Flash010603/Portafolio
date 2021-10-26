@@ -1,5 +1,6 @@
 
-import aside from '../styles/Home.module.css'
+import aside from '../styles/Home.module.css';
+import Image from 'next/image'
 
 export const Aside = () => {
     
@@ -8,7 +9,15 @@ export const Aside = () => {
             <aside className={aside.aside_container}>
 
                 <div className={aside.container_img}>
-                    <div className={aside.img_face}></div>
+                    <div className={aside.img_face}>
+                        <Image
+                            src="/img4.png"
+                            placeholder="blur"
+                            alt="face"
+                            width={400}
+                            height={400}
+                        />
+                    </div>
                 </div>
                 <h1 className={aside.name}>Franklin  <span className={aside.lastName}>Martinez Lucas</span></h1>
                 <div className={aside.office}><p> Desarrollador web</p></div>

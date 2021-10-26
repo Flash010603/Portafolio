@@ -17,15 +17,15 @@ export const AboutMe = () => {
             Usando las mejores prácticas para optimizar la experiencia de usuario.
             </p>
 
-            <div className={main.img_div}>
-
-            </div>
+            <div className={main.img_div}/>
+            
             <div className={aside.containerMessage}>
               <a  href="/cv.pdf" target="_black" className={aside.message}>
                 <p>Descargar CV.</p>
                 <i className="fas fa-download"></i>
               </a>
             </div>
+
           </header>
 
 

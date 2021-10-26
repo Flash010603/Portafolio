@@ -1,42 +1,42 @@
 .main_container{
-
     border-radius: 5px;
     overflow: hidden;
     position: relative;
     
 }
 .header h2{
-    margin: 0; color: rgb(236, 233, 233);
+    margin: 0; 
+    color:#2cb67d;
     text-shadow: 3px 3px 10px black;
 }
 
 .header hr{ 
-    border: 1px solid black; 
-    color: #000000;
+    border: 1px solid #72757e; 
+    color: #72757e;
     margin: 1.5em 0;
 }
 .header{
-
-    background-image: linear-gradient( 110.3deg,  rgb(91, 127, 156) 4.3%, rgb(79, 89, 134) 96.7% );
-
-
+/* 
+    background-image: linear-gradient( 110.3deg,  rgb(91, 127, 156) 4.3%, rgb(79, 89, 134) 96.7% ); */
+    background-color: #16161a;
+    color: #fffffe;
     padding: 2.5em 2em 1em 2em;
     position: relative;
     overflow: hidden;
 }
 .headerBig{
-    min-height: 80vh;
+    min-height: 94.5vh;
     margin: 0;
     overflow: hidden;
     position: relative;
 }
 .description{
-    margin: 0 auto;  
-    margin-top: 1em;
+    margin: 1em auto; 
     font-size: 1.5em;
     padding: 0 1em;
     line-height: 1.6em;
-    width: 95%;
+    width: 90%;
+    text-align: center;
 }
 
 .textBig{
@@ -44,6 +44,7 @@
     margin: 0;
     font-weight: bold;
     font-family: 'Lobster', cursive;
+    color: #2cb67d;
     letter-spacing: 3px; 
     text-align: center;
 }
@@ -102,18 +103,19 @@
 }
 
 .img_div{
-    position: absolute;
-    width: 30vw;
-    height: 30vw;
+    /* position: absolute; */
+    width: 15vw;
+    height: 15vw;
+    margin: auto;
     background-color: rgba(194, 184, 184, 0.459);
-    right: -7%;
-    bottom: -38%;
+    /* right: -7%;
+    bottom: -28%; */
     border-radius: 50%;
 
     background-image: url('../public/dev.svg');
     background-repeat: no-repeat;
-    background-size: 50%;
-    background-position: 6.5em 2em;
+    background-size: contain;
+    background-position: center;
 }
 @media screen and (max-width:1324px){
     .img_div{
@@ -125,12 +127,7 @@
 }
 @media screen and (max-width:1024px){
     .img_div{
-        width: 35vw;
-        height: 35vw;
-        right: -5%;
-        bottom: -20%;
-        background-size: 60%;
-        background-position: 4em 2em;
+       display: none;
     }
 }
 @media screen and (max-width:768px){
@@ -168,7 +165,7 @@
 @media screen and (max-width:470px){
 
     .header{
-        padding: 2.5em 2em 1em 2em;
+        padding: 2.5em 2em 2em 2em;
         position: relative;
         overflow: hidden;
     }

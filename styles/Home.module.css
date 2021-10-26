@@ -7,8 +7,8 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: repeating-radial-gradient(circle at center center, transparent 0px, transparent 8px,rgba(255,255,255,0.05) 8px, rgba(255,255,255,0.05) 11px,transparent 11px, transparent 17px,rgba(255,255,255,0.05) 17px, rgba(255,255,255,0.05) 25px,transparent 25px, transparent 38px,rgba(255,255,255,0.05) 38px, rgba(255,255,255,0.05) 42px),repeating-radial-gradient(circle at center center, rgb(0,0,0) 0px, rgb(0,0,0) 11px,rgb(0,0,0) 11px, rgb(0,0,0) 19px,rgb(0,0,0) 19px, rgb(0,0,0) 24px,rgb(0,0,0) 24px, rgb(0,0,0) 33px,rgb(0,0,0) 33px, rgb(0,0,0) 44px,rgb(0,0,0) 44px, rgb(0,0,0) 46px); 
-  background-size: 60px 60px;
+  background-color: #72757e;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='199' viewBox='0 0 100 199'%3E%3Cg fill='%239C92AC' fill-opacity='0.91'%3E%3Cpath d='M0 199V0h1v1.99L100 199h-1.12L1 4.22V199H0zM100 2h-.12l-1-2H100v2z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
 }
 .container_face{
   width: 95vw;
@@ -22,6 +22,7 @@
   background-color: #c0bdbd;
   border-radius: 5px;
   overflow: hidden;
+  min-height: 95vh;
 }
 
 .container_img{
@@ -33,11 +34,6 @@
   width: 14.2em;
   height: 14.2em;
   border-radius: 100%;
-
-  background-image: url('/img4.png');
-
-  background-repeat: no-repeat;
-  background-size: cover;
   /* border: 1px solid red; */
   box-shadow: 5px 5px 10px rgba(8, 8, 8, 0.568);
 }
@@ -46,7 +42,7 @@
   font-size: 2.4em;
   text-align: center;
   margin: .5em 0;
-  text-shadow: 3px 3px 3px rgba(31, 30, 30, 0.438);
+  text-shadow: 3px 3px 3px rgba(31, 30, 30, 0.308);
   
 }
 .lastName{
@@ -54,8 +50,9 @@
   margin: .5em 0; 
 }
 .office{
-  background: rgb(43, 43, 43);
-  color: rgba(255,255,255,.9);
+  background:#010101;
+  color: #2cb67d;
+  font-weight: bold;
   width: 60%;
   margin:  0 auto;
   text-align: center;
@@ -83,7 +80,7 @@
   transform: scale(1);
   cursor: pointer;
   transition: all .3s ease;
-  background-color: rgb(0, 0, 0);
+  background-color: #16161a;
   padding: .8em;
   border-radius: 50%;
   margin-top: .2em;
@@ -103,7 +100,7 @@
 }
 
 .containerDetails{
-  background-color: #344966;
+  background-color: #010101;
   color: rgb(211, 207, 207);
   font-weight: bold;
   padding: .5em 0;
@@ -123,28 +120,30 @@
   display: flex;
   justify-content:center;
   align-items: center;
-  margin-top: .5em;
+  width: 90%;
   position: absolute;
   bottom: 5%;
-  left: 5%;
+  left: 50%;
+  transform: translateX(-50%);
   
 }
 .message{
-  background-color: rgb(29, 35, 126);
-  color:white;
+  background-color: #7f5af0;
+  color:#fffffe;
   padding: 1em 1em;
   border-radius: 2em;
   cursor: pointer;
   text-align: center;
   transform: scale(1.1);
   transition: all .3s ease;
-  border:3px solid rgb(142, 119, 245);
   display: flex;
   align-items: center;
+  justify-content: center;
+  width: 50%;
 }
 .message:hover{
   
-  background-color: rgb(7, 12, 80);
+  background-color: #5a32d3;
   transform: scale(1.2);
 }
 .message p {margin: 0 1em;}
@@ -163,7 +162,7 @@
     margin-top: 1.5em;
     position: relative;
     bottom: 0;
-    left: 0;
+    
   }
   .message{
     width: 100%;

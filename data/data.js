@@ -17,6 +17,10 @@ export const skills = [
         url: '/tec/typescript-icon.svg',
         tec: 'Typescript JS'
     },
+    {
+        url: '/tec/dev.svg',
+        tec: 'React Native CLI'
+    },
 
     {
         url: '/tec/c-sharp.svg',
